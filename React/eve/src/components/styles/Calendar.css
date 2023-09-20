@@ -1,0 +1,9 @@
+.calendar {
+    width: 70%; /* chance this for calendar width i.e 80%*/
+    margin: 1%;
+    float: right
+}
+
+.create-event{
+    float: left;
+}

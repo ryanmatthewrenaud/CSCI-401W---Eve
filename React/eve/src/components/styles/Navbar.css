@@ -1,0 +1,73 @@
+@import url("https://fonts.cdnfonts.com/css/frijole");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
+.navbar {
+  background-color: hsl(235, 33%, 94%);
+  box-shadow: rgb(0 0 0 / 60%) 1px 1px 10px;
+}
+
+.logoStyle {
+  font-family: "Frijole", sans-serif;
+  font-size: 55px;
+  margin-right: 0; /*might need to delete*/
+}
+
+.navbar-nav-scroll {
+  width: 100%;
+  max-height: 100px;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  margin: 0 20px 0 20px;
+  background: none;
+  color: #0d6efd;
+  font-size: 40px;
+  font-weight: 50px;
+  text-decoration: none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.navbarList {
+  font-family: 'Titillium Web';
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  list-style-type: none;
+  margin: 0 25px 0 25px;
+}
+
+.navbarList * {
+  box-sizing: border-box;
+  transition: all .075s ease;
+}
+
+.navbarList li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.navbarListv a {
+  padding: .5em .8em;
+  color: rgba(255, 255, 255, .5);
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbarList a::before,
+.navbarList a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .7s ease;
+  opacity: 0;
+}
+
+.navbarList a:hover {
+  color: rgb(0, 0, 0);
+}
